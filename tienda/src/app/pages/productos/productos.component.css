@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:20px;
+  width: 100%;
+
+  .search-box{
+    width: 50%;
+  }
+
+  .amount-content {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-end;
+
+    .amount-info{
+      display: flex;
+      flex-direction: row;
+      gap:8px;
+    }
+  }
+
+  .table th,
+  .table td {
+    text-align: center;
+  }
+
+}
